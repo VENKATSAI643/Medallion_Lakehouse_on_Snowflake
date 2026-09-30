@@ -1,0 +1,25 @@
+# Environment Variables & Credentials
+.env
+.env.local
+
+# Data Files (Prevent accidental upload of raw data)
+*.csv
+*.parquet
+*.json
+*.log
+output/
+data/
+
+# OS/System Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor Configurations
+.vscode/
+.idea/
+*.swp
+
+# Python Environments (In case you add Snowpark scripts later)
+venv/
+.venv/
+__pycache__/
